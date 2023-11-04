@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column; /* Cambio en la dirección del flujo de contenido */
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px; /* Espacio entre el encabezado y el contador */
+}
+
+.contador {
+    display: flex;
+    align-items: center;
+}
+
+.btn-decrementar,
+.btn-incrementar {
+    font-size: 24px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+
+.numero {
+    font-size: 36px;
+}
